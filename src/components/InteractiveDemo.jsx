@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 // Fruit List Demo
 function FruitListDemo() {
-  const fruits = ['Apple', 'Banana', 'Orange', 'Grape']
+  const fruits = ['🍎 Apple', '🍌 Banana', '🍊 Orange', '🍇 Grape']
   
   return (
     <div className="demo-container">
@@ -16,7 +16,7 @@ function FruitListDemo() {
             borderRadius: '4px',
             border: '1px solid #e0e0e0'
           }}>
-            🍎 {fruit}
+            {fruit}
           </li>
         ))}
       </ul>

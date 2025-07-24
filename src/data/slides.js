@@ -3,7 +3,7 @@ const slides = [
     title: "Session 4: Rendering Lists & Using Keys",
     content: [
       "📌 Prerequisites: JavaScript Arrays, JSX, Components",
-      "🎯 Goals:",
+      "",
       [
         "Render dynamic lists using .map()",
         "Understand and apply React keys",
