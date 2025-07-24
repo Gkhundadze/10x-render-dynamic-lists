@@ -1,0 +1,53 @@
+.navigation {
+  margin-top: 20px;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.nav-btn {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border: none;
+  background: #667eea;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-btn:hover:not(:disabled) {
+  background: #5a67d8;
+  transform: scale(1.05);
+}
+
+.nav-btn:disabled {
+  background: #cbd5e0;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.progress-container {
+  height: 12px;
+  background: #e2e8f0;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  height: 100%;
+  background: #667eea;
+  transition: width 0.3s ease;
+}
+
+.slide-counter {
+  text-align: center;
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 500;
+}
